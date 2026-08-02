@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vaidehispyy.github.io/myportfolio/sitemap.xml

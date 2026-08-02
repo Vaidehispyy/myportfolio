@@ -107,7 +107,7 @@ export default function Hero() {
             </button>
           </Magnetic>
           <Magnetic>
-            <a href="/resume.pdf" download className="btn-ghost group">
+            <a href={`${import.meta.env.BASE_URL}resume.pdf`} download="Vaidehi_Bhuwad_Resume.pdf" className="btn-ghost group">
               <Download size={17} className="transition-transform duration-300 group-hover:translate-y-0.5" />
               Download Resume
             </a>

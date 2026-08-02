@@ -129,7 +129,7 @@ export default function Projects() {
   const [active, setActive] = useState(null)
 
   return (
-    <section id="projects" className="section-pad relative z-10">
+    <section id="projects" className="section-pad section-blend relative z-10">
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Portfolio"

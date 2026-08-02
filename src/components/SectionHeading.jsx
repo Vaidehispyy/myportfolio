@@ -3,7 +3,7 @@ import { Flower } from './Flowers'
 
 export default function SectionHeading({ eyebrow, title, highlight, subtitle }) {
   return (
-    <div className="mx-auto mb-16 max-w-3xl text-center">
+    <div className="mx-auto mb-10 max-w-3xl text-center">
       <Reveal>
         <span className="chip">
           <span className="h-1.5 w-1.5 rounded-full bg-gradient-to-r from-rose-400 to-peach-400 animate-pulse-glow" />

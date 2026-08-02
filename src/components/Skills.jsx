@@ -11,7 +11,7 @@ const bubbleSizes = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="section-pad relative z-10 overflow-hidden">
+    <section id="skills" className="section-pad section-blend relative z-10 overflow-hidden">
       <div className="mx-auto max-w-5xl">
         <SectionHeading
           eyebrow="Capabilities"

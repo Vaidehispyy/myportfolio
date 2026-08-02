@@ -19,7 +19,7 @@ export default function Contact() {
   ]
 
   return (
-    <section id="contact" className="section-pad relative z-10 overflow-hidden">
+    <section id="contact" className="section-pad section-blend relative z-10 overflow-hidden">
       <div className="mx-auto max-w-5xl">
         <SectionHeading
           eyebrow="Contact"

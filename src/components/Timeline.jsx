@@ -7,7 +7,7 @@ import TiltCard from './TiltCard'
 
 export default function Timeline() {
   return (
-    <section id="education" className="section-pad relative z-10 overflow-hidden">
+    <section id="education" className="section-pad section-blend relative z-10 overflow-hidden">
       <div className="mx-auto max-w-3xl">
         <SectionHeading
           eyebrow="Education"

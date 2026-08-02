@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#faf5ec"/>
+      <stop offset="1" stop-color="#f8e8ee"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e596ae"/>
+      <stop offset="1" stop-color="#f3b48a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1050" cy="90" r="220" fill="#e596ae" opacity="0.15"/>
+  <circle cx="140" cy="560" r="260" fill="#f3b48a" opacity="0.18"/>
+  <text x="600" y="280" font-family="Georgia, serif" font-size="96" font-weight="bold" text-anchor="middle" fill="#463a32">Vaidehi Bhuwad</text>
+  <text x="600" y="380" font-family="Georgia, serif" font-size="44" font-style="italic" text-anchor="middle" fill="url(#txt)">AI / ML Engineer</text>
+  <line x1="440" y1="440" x2="760" y2="440" stroke="#e596ae" stroke-width="3" opacity="0.6"/>
+  <text x="600" y="505" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" fill="#463a32" opacity="0.65">Intelligent systems, data-driven applications, beautiful experiences</text>
+</svg>

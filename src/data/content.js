@@ -2,9 +2,7 @@ export const navLinks = [
   { label: 'Home', id: 'home' },
   { label: 'Projects', id: 'projects' },
   { label: 'Skills', id: 'skills' },
-  { label: 'Achievements', id: 'achievements' },
   { label: 'Education', id: 'education' },
-  { label: 'Certifications', id: 'certifications' },
   { label: 'Contact', id: 'contact' }
 ]
 
@@ -259,82 +257,6 @@ export const timeline = {
       period: '2023 – 2027',
       detail: 'CGPA 9.138 / 10',
       tag: 'B.E.'
-    }
-  ],
-  achievements: [
-    {
-      title: 'Winner — National AI Hackathon',
-      org: 'IntelliHack 2025',
-      period: '2025',
-      detail: 'Best AI Innovation for an LLM-powered accessibility assistant',
-      tag: '1st Place'
-    },
-    {
-      title: 'Top 10 — Smart India Hackathon',
-      org: 'SIH 2024',
-      period: '2024',
-      detail: 'Built a rural logistics optimization model among 1,200+ teams',
-      tag: 'Finalist'
-    },
-    {
-      title: 'Campus AI Society Lead',
-      org: 'College Tech Club',
-      period: '2024 – Present',
-      detail: 'Mentored 40+ students, ran workshops on Deep Learning',
-      tag: 'Leadership'
-    }
-  ],
-  hackathons: [
-    {
-      title: 'HackSprint 2025',
-      org: '48-hour build · AI Track',
-      period: '2025',
-      detail: 'Shipped a real-time meeting summarizer using Whisper + GPT',
-      tag: 'Winner'
-    },
-    {
-      title: 'DataVerse 2024',
-      org: 'College-level data hack',
-      period: '2024',
-      detail: 'Won Best Visualization for a city-traffic EDA story',
-      tag: 'Winner'
-    },
-    {
-      title: 'CodeCraft 2023',
-      org: 'Full-stack sprint',
-      period: '2023',
-      detail: 'Runner-up for a collaborative whiteboard app',
-      tag: 'Runner-up'
-    }
-  ],
-  certifications: [
-    {
-      title: 'Machine Learning Specialization',
-      org: 'DeepLearning.AI · Coursera',
-      period: '2025',
-      detail: 'Supervised, unsupervised & neural network foundations',
-      tag: 'Verified'
-    },
-    {
-      title: 'TensorFlow Developer Certificate',
-      org: 'Google',
-      period: '2024',
-      detail: 'Deep learning models with TensorFlow & Keras',
-      tag: 'Certified'
-    },
-    {
-      title: 'AWS Certified Machine Learning — Associate',
-      org: 'Amazon Web Services',
-      period: '2024',
-      detail: 'ML pipelines, SageMaker & model deployment on AWS',
-      tag: 'Certified'
-    },
-    {
-      title: 'Microsoft Azure AI Fundamentals (AI-900)',
-      org: 'Microsoft',
-      period: '2023',
-      detail: 'AI workloads & Azure cognitive services',
-      tag: 'Certified'
     }
   ]
 }

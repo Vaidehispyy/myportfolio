@@ -39,19 +39,15 @@ const brain = [
   },
   {
     keywords: ['experience', 'intern', 'job', 'internship'],
-    reply: 'Her journey so far is all in the Journey section — education, achievements, hackathons and certifications. She is open to full-time AI/ML roles!'
+    reply: 'She is pursuing B.E. CSE (AI & ML) at Finolex Academy of Management & Technology. Open to full-time AI/ML and data analyst roles!'
   },
   {
     keywords: ['education', 'study', 'college', 'university', 'degree'],
-    reply: 'Vaidehi is pursuing B.E. Computer Engineering at SPPU, Pune — CGPA 9.2/10. Full timeline in the Education section.'
+    reply: 'Vaidehi is pursuing B.E. CSE — AI & ML Engineering at Finolex Academy of Management & Technology, Ratnagiri (2023–2027), CGPA 9.138/10.'
   },
   {
-    keywords: ['achiev', 'award', 'winner', 'hackathon'],
-    reply: 'Highlights: winner of the National AI Hackathon 2025, Smart India Hackathon top-10, and multiple hackathon wins. Check the Achievements tab!'
-  },
-  {
-    keywords: ['certif', 'certification', 'course'],
-    reply: 'Certified: TensorFlow Developer (Google), AWS ML Associate, Azure AI-900 and the DeepLearning.AI ML Specialization.'
+    keywords: ['certif', 'certification', 'course', 'achiev', 'hackathon'],
+    reply: 'The best story is the work itself — check out her projects (Focus Room, Bus Tracking, Cookbook, Attendance Analysis, WebShotSim) for the hands-on proof!'
   },
   {
     keywords: ['contact', 'email', 'reach', 'hire', 'resume', 'cv'],
@@ -75,13 +71,13 @@ const brain = [
   }
 ]
 
-const quickReplies = ['Show projects', 'Your skills', 'Achievements', 'Contact her']
+const quickReplies = ['Show projects', 'Your skills', 'Education', 'Contact her']
 
 function getReply(input) {
   const q = input.toLowerCase()
   const match = brain.find((b) => b.keywords.some((k) => q.includes(k)))
   if (match) return match.reply
-  return "Interesting question — my rule-based brain doesn't know that one yet. Try asking about projects, skills, achievements, certifications, or contact info!"
+  return "Interesting question — my rule-based brain doesn't know that one yet. Try asking about projects, skills, education, or contact info!"
 }
 
 function ChatMessage({ role, text }) {
